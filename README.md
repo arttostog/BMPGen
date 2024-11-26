@@ -21,4 +21,4 @@ BMPGen - Bitmap images generator
 ### Drawing modes
 
 1) Random drawing
-2) By pixel drawing
+2) Drawing by pixels
