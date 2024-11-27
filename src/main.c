@@ -60,8 +60,8 @@ int main(int argc, char* argv[]) {
                 pixels[i] = rand() % 256;
             break;
         case 2:
-            for (int i = 0, red, green, blue, pixelsIndex; i < height; ++i)
-                for (int j = 0; j < width; ++j, pixelsIndex += 3) {
+            for (int i = 0, pixelsIndex = 0; i < height; ++i)
+                for (int j = 0, red, green, blue; j < width; ++j, pixelsIndex += 3) {
                     printf("Enter red, green and blue for [%d|%d]: ", j, i);
                     scanf("%d %d %d", &red, &green, &blue);
                     pixels[pixelsIndex] = (char) red;
